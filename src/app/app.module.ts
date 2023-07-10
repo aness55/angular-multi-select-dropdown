@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MockService } from './examples/mock-data';
 import { AppComponent } from './app.component';
-import { AngularMultiSelectModule } from '../../projects/angular-dona-multi-select-dropdown-lib/src/lib/multiselect.component';
+import { AngularDonaMultiSelectModule } from '../../projects/angular-dona-multi-select-dropdown-lib/src/lib/multiselect.component';
 import { AppRouterModule } from './app.router';
 import { BasicExample } from './examples/basic';
 import { SingleSelectionExample } from './examples/singleselection';
@@ -78,7 +78,7 @@ import { AdsenseModule } from 'ng2-adsense';
     ReactiveFormsModule,
     FormsModule,
     AppRouterModule,
-    AngularMultiSelectModule,
+    AngularDonaMultiSelectModule,
     HttpClientModule,
     AdsenseModule.forRoot(),
     NgbModule,

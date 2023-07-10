@@ -38,18 +38,18 @@ Angular 2 multiselect dropdown component for web applications. Easy to integrate
 - Install the package :
     `npm install angular-dona-multi-select-dropdown`
 
-- Once installed import `AngularMultiSelectModule` from the installed package into your module as follows:
+- Once installed import `AngularDonaMultiSelectModule` from the installed package into your module as follows:
 
 ### Usage
-Import `AngularMultiSelectModule` into `NgModule` in `app.module.ts`. Angular's `FormsModule` is also required.
+Import `AngularDonaMultiSelectModule` into `NgModule` in `app.module.ts`. Angular's `FormsModule` is also required.
 ```js
-import { AngularMultiSelectModule } from 'angular-dona-multi-select-dropdown';
+import { AngularDonaMultiSelectModule } from 'angular-dona-multi-select-dropdown';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
   // ...
   imports: [
-    AngularMultiSelectModule,
+    AngularDonaMultiSelectModule,
     FormsModule
   ]
   // ...

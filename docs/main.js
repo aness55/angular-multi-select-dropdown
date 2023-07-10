@@ -4046,7 +4046,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
             _app_router__WEBPACK_IMPORTED_MODULE_7__["AppRouterModule"],
-            _projects_angular_dona_multi_select_dropdown_lib_src_lib_multiselect_component__WEBPACK_IMPORTED_MODULE_6__["AngularMultiSelectModule"],
+            _projects_angular_dona_multi_select_dropdown_lib_src_lib_multiselect_component__WEBPACK_IMPORTED_MODULE_6__["AngularDonaMultiSelectModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
             ng2_adsense__WEBPACK_IMPORTED_MODULE_41__["AdsenseModule"].forRoot(),
             _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_40__["NgbModule"],
@@ -4085,7 +4085,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _examples_usingWithinDialog__WEBPACK_IMPORTED_MODULE_39__["UsingWithinDialog"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
         _app_router__WEBPACK_IMPORTED_MODULE_7__["AppRouterModule"],
-        _projects_angular_dona_multi_select_dropdown_lib_src_lib_multiselect_component__WEBPACK_IMPORTED_MODULE_6__["AngularMultiSelectModule"],
+        _projects_angular_dona_multi_select_dropdown_lib_src_lib_multiselect_component__WEBPACK_IMPORTED_MODULE_6__["AngularDonaMultiSelectModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], ng2_adsense__WEBPACK_IMPORTED_MODULE_41__["AdsenseModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_40__["NgbModule"],
         ngx_highlightjs__WEBPACK_IMPORTED_MODULE_32__["HighlightModule"], _angular_service_worker__WEBPACK_IMPORTED_MODULE_35__["ServiceWorkerModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_38__["BrowserAnimationsModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
@@ -4127,7 +4127,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
                     _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
                     _app_router__WEBPACK_IMPORTED_MODULE_7__["AppRouterModule"],
-                    _projects_angular_dona_multi_select_dropdown_lib_src_lib_multiselect_component__WEBPACK_IMPORTED_MODULE_6__["AngularMultiSelectModule"],
+                    _projects_angular_dona_multi_select_dropdown_lib_src_lib_multiselect_component__WEBPACK_IMPORTED_MODULE_6__["AngularDonaMultiSelectModule"],
                     _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
                     ng2_adsense__WEBPACK_IMPORTED_MODULE_41__["AdsenseModule"].forRoot(),
                     _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_40__["NgbModule"],
@@ -4619,7 +4619,7 @@ CheckForUpdateService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
 /*!******************************************************************************************!*\
   !*** ./projects/angular-dona-multi-select-dropdown-lib/src/lib/multiselect.component.ts ***!
   \******************************************************************************************/
-/*! exports provided: DROPDOWN_CONTROL_VALUE_ACCESSOR, DROPDOWN_CONTROL_VALIDATION, AngularMultiSelect, AngularMultiSelectModule */
+/*! exports provided: DROPDOWN_CONTROL_VALUE_ACCESSOR, DROPDOWN_CONTROL_VALIDATION, AngularMultiSelect, AngularDonaMultiSelectModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4627,7 +4627,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DROPDOWN_CONTROL_VALUE_ACCESSOR", function() { return DROPDOWN_CONTROL_VALUE_ACCESSOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DROPDOWN_CONTROL_VALIDATION", function() { return DROPDOWN_CONTROL_VALIDATION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AngularMultiSelect", function() { return AngularMultiSelect; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AngularMultiSelectModule", function() { return AngularMultiSelectModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AngularDonaMultiSelectModule", function() { return AngularDonaMultiSelectModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
@@ -6569,12 +6569,12 @@ AngularMultiSelect.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
             args: [_virtual_scroll_virtual_scroll__WEBPACK_IMPORTED_MODULE_9__["VirtualScrollerComponent"], { static: false }]
         }] }); })();
-class AngularMultiSelectModule {
+class AngularDonaMultiSelectModule {
 }
-AngularMultiSelectModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AngularMultiSelectModule });
-AngularMultiSelectModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AngularMultiSelectModule_Factory(t) { return new (t || AngularMultiSelectModule)(); }, providers: [_multiselect_service__WEBPACK_IMPORTED_MODULE_7__["DataService"], _list_filter__WEBPACK_IMPORTED_MODULE_5__["ListFilterPipe"]], imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"], _virtual_scroll_virtual_scroll__WEBPACK_IMPORTED_MODULE_9__["VirtualScrollerModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AngularMultiSelectModule, { declarations: [AngularMultiSelect, _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ClickOutsideDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ScrollDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["styleDirective"], _list_filter__WEBPACK_IMPORTED_MODULE_5__["ListFilterPipe"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Item"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["TemplateRenderer"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Badge"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Search"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["setPosition"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["CIcon"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"], _virtual_scroll_virtual_scroll__WEBPACK_IMPORTED_MODULE_9__["VirtualScrollerModule"]], exports: [AngularMultiSelect, _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ClickOutsideDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ScrollDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["styleDirective"], _list_filter__WEBPACK_IMPORTED_MODULE_5__["ListFilterPipe"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Item"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["TemplateRenderer"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Badge"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Search"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["setPosition"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["CIcon"]] }); })();
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AngularMultiSelectModule, [{
+AngularDonaMultiSelectModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AngularDonaMultiSelectModule });
+AngularDonaMultiSelectModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AngularDonaMultiSelectModule_Factory(t) { return new (t || AngularDonaMultiSelectModule)(); }, providers: [_multiselect_service__WEBPACK_IMPORTED_MODULE_7__["DataService"], _list_filter__WEBPACK_IMPORTED_MODULE_5__["ListFilterPipe"]], imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"], _virtual_scroll_virtual_scroll__WEBPACK_IMPORTED_MODULE_9__["VirtualScrollerModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AngularDonaMultiSelectModule, { declarations: [AngularMultiSelect, _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ClickOutsideDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ScrollDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["styleDirective"], _list_filter__WEBPACK_IMPORTED_MODULE_5__["ListFilterPipe"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Item"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["TemplateRenderer"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Badge"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Search"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["setPosition"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["CIcon"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"], _virtual_scroll_virtual_scroll__WEBPACK_IMPORTED_MODULE_9__["VirtualScrollerModule"]], exports: [AngularMultiSelect, _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ClickOutsideDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["ScrollDirective"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["styleDirective"], _list_filter__WEBPACK_IMPORTED_MODULE_5__["ListFilterPipe"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Item"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["TemplateRenderer"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Badge"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["Search"], _clickOutside__WEBPACK_IMPORTED_MODULE_4__["setPosition"], _menu_item__WEBPACK_IMPORTED_MODULE_6__["CIcon"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AngularDonaMultiSelectModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
                 imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"], _virtual_scroll_virtual_scroll__WEBPACK_IMPORTED_MODULE_9__["VirtualScrollerModule"]],

@@ -956,4 +956,4 @@ export class AngularMultiSelect implements OnInit, ControlValueAccessor, OnChang
     exports: [AngularMultiSelect, ClickOutsideDirective, ScrollDirective, styleDirective, ListFilterPipe, Item, TemplateRenderer, Badge, Search, setPosition, CIcon],
     providers: [DataService, ListFilterPipe]
 })
-export class AngularMultiSelectModule { }
+export class AngularDonaMultiSelectModule { }
