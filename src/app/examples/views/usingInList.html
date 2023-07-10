@@ -10,7 +10,7 @@
       <tr *ngFor="let item of customers">
         <td>{{item.name}}</td>
         <td>
-          <angular2-multiselect
+          <angular-dona-multi-select-dropdown
             [data]="itemList"
             [(ngModel)]="item.countries"
             [settings]="settings"
@@ -19,7 +19,7 @@
             (onSelectAll)="onSelectAll($event)"
             (onDeSelectAll)="onDeSelectAll($event)"
           >
-          </angular2-multiselect>
+          </angular-dona-multi-select-dropdown>
         </td>
       </tr>
     </tbody>

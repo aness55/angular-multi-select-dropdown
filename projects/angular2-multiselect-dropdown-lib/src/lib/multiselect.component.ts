@@ -26,7 +26,7 @@ const noop = () => {
 };
 
 @Component({
-    selector: 'angular2-multiselect',
+    selector: 'angular-dona-multi-select-dropdown',
     templateUrl: './multiselect.component.html',
     host: { '[class]': 'defaultSettings.classes' },
     styleUrls: ['./multiselect.component.scss'],

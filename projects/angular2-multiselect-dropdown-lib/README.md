@@ -114,12 +114,12 @@ export class AppComponent implements OnInit {
 
 Add the following component tag in you template 
 ```html
-<angular2-multiselect [data]="dropdownList" [(ngModel)]="selectedItems" 
+<angular-dona-multi-select-dropdown [data]="dropdownList" [(ngModel)]="selectedItems" 
     [settings]="dropdownSettings" 
     (onSelect)="onItemSelect($event)" 
     (onDeSelect)="OnItemDeSelect($event)"
     (onSelectAll)="onSelectAll($event)"
-    (onDeSelectAll)="onDeSelectAll($event)"></angular2-multiselect>
+    (onDeSelectAll)="onDeSelectAll($event)"></angular-dona-multi-select-dropdown>
 
 ```
 
@@ -136,7 +136,7 @@ You can create your own theme from now on. You can have a look at example scss t
 ### Template - For custom html of menu item
 
 ```html
-<angular2-multiselect [data]="dropdownList" [(ngModel)]="selectedItems" [settings]="dropdownSettings">
+<angular-dona-multi-select-dropdown [data]="dropdownList" [(ngModel)]="selectedItems" [settings]="dropdownSettings">
   <c-item>
           <ng-template let-item="item">
             <label style="color: #333;min-width: 150px;">{{item.itemName}}</label>
@@ -144,21 +144,21 @@ You can create your own theme from now on. You can have a look at example scss t
             <label>Capital - {{item.capital}}</label>
           </ng-template>
   </c-item>    
-</angular2-multiselect>
+</angular-dona-multi-select-dropdown>
 
 ```
 
 ### Template - For custom html of Selected item - badge
 
 ```html
-<angular2-multiselect [data]="dropdownList" [(ngModel)]="selectedItems" [settings]="dropdownSettings">
+<angular-dona-multi-select-dropdown [data]="dropdownList" [(ngModel)]="selectedItems" [settings]="dropdownSettings">
   <c-badge>
            <ng-template let-item="item">
             <label style="margin: 0px;">{{item.itemName}}</label>
             <img [src]="item.image" style="width: 16px; margin-right: 5px;" />
            </ng-template>
   </c-badge>  
-</angular2-multiselect>
+</angular-dona-multi-select-dropdown>
 
 ```
 
@@ -169,13 +169,13 @@ You can create your own theme from now on. You can have a look at example scss t
 <form (ngSubmit)="onSubmit()" #loginForm="ngForm" style="border: 1px solid #ccc; padding: 10px;">
         <div class="form-group">
             <label for="name">Skills</label>
-            <angular2-multiselect [data]="itemList" [(ngModel)]="formModel.skills" 
+            <angular-dona-multi-select-dropdown [data]="itemList" [(ngModel)]="formModel.skills" 
                                   [settings]="settings" 
                                   (onSelect)="onItemSelect($event)"
                                   (onDeSelect)="OnItemDeSelect($event)" 
                                   (onSelectAll)="onSelectAll($event)" 
                                   (onDeSelectAll)="onDeSelectAll($event)" name="skills">
-            </angular2-multiselect>
+            </angular-dona-multi-select-dropdown>
         </div>
 </form>
 
@@ -198,13 +198,13 @@ formModel = {
 <form [formGroup]="userForm" novalidate style="border: 1px solid #ccc; padding: 10px;">
         <div class="form-group">
             <label for="name">Skills</label>
-           <angular2-multiselect [data]="itemList" [(ngModel)]="selectedItems" 
+           <angular-dona-multi-select-dropdown [data]="itemList" [(ngModel)]="selectedItems" 
                                   [settings]="settings" 
                                   (onSelect)="onItemSelect($event)"
                                   (onDeSelect)="OnItemDeSelect($event)" 
                                   (onSelectAll)="onSelectAll($event)" 
                                   (onDeSelectAll)="onDeSelectAll($event)" formControlName="skills">
-            </angular2-multiselect>
+            </angular-dona-multi-select-dropdown>
         </div>
 </form>
 
