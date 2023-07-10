@@ -1,7 +1,7 @@
 {
   "$schema": "../../node_modules/ng-packagr/package.schema.json",
   "name":"angular-dona-multi-select-dropdown",
-  "version":"6.1.0",
+  "version":"6.1.2",
   "license": "MIT",
   "author": "Pradeep Terli",
   "description": "Angular Multiselct dropdown component library for Angular version 11, 10, 9,8,6,4 ",
