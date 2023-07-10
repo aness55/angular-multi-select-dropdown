@@ -1,5 +1,5 @@
 {
-  "name": "angular2-multiselect-dropdown",
+  "name": "angular-dona-multi-select-dropdown",
   "version": "5.0.4",
   "scripts": {
     "ng": "ng",
@@ -8,11 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-sass":"node-sass --include-path scss projects/angular2-multiselect-dropdown-lib/themes/default.theme.scss projects/angular2-multiselect-dropdown-lib/themes/default.theme.css",
-    "build-package":"npm run build-sass && ng-packagr -p projects/angular2-multiselect-dropdown-lib/package.json",
-    "github-pages": "ng build --prod --base-href /angular2-multiselect-dropdown/"
+    "build-sass":"node-sass --include-path scss projects/angular-dona-multi-select-dropdown-lib/themes/default.theme.scss projects/angular-dona-multi-select-dropdown-lib/themes/default.theme.css",
+    "build-package":"npm run build-sass && ng-packagr -p projects/angular-dona-multi-select-dropdown-lib/package.json",
+    "github-pages": "ng build --prod --base-href /angular-dona-multi-select-dropdown/"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~11.0.1",
     "@angular/common": "~11.0.1",

@@ -20,9 +20,9 @@
       "dom"
     ],
     "paths": {
-      "angular2-multiselect-dropdown-lib": [
-        "dist/angular2-multiselect-dropdown-lib/angular2-multiselect-dropdown-lib",
-        "dist/angular2-multiselect-dropdown-lib"
+      "angular-dona-multi-select-dropdown-lib": [
+        "dist/angular-dona-multi-select-dropdown-lib/angular-dona-multi-select-dropdown-lib",
+        "dist/angular-dona-multi-select-dropdown-lib"
       ]
     }
   },

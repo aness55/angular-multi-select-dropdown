@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser';
-import { DropdownSettings } from 'projects/angular2-multiselect-dropdown-lib/src/lib/multiselect.interface';
+import { DropdownSettings } from 'projects/angular-dona-multi-select-dropdown-lib/src/lib/multiselect.interface';
 @Component({
     templateUrl: './views/view.html'
 })

@@ -74,7 +74,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-angular2-multiselect-dropdown
+angular-dona-multi-select-dropdown
 MIT
 The MIT License (MIT)
 Copyright (c) 2016 Cuppa Labs

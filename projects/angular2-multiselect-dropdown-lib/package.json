@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/package.schema.json",
-  "name":"angular2-multiselect-dropdown",
+  "name":"angular-dona-multi-select-dropdown",
   "version":"5.0.4",
   "license": "MIT",
   "author": "Pradeep Terli",
@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CuppaLabs/angular2-multiselect-dropdown"
+    "url": "https://github.com/CuppaLabs/angular-dona-multi-select-dropdown"
   },
   "bugs": {
-    "url": "https://github.com/CuppaLabs/angular2-multiselect-dropdown/issues"
+    "url": "https://github.com/CuppaLabs/angular-dona-multi-select-dropdown/issues"
   }
 }
